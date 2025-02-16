@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="This is where your description goes">
+        <meta name="keywords" content="one, two, three">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fitri Sayang</title>
+        <link rel="shortcut icon" href="./assets/MyLove4.png" />
+        <!-- external CSS link -->
+        <script src="https://kit.fontawesome.com/3f7da84ca4.js" crossorigin="anonymous"></script>
+
+        <!-- font Crimson Text -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+
+        <!-- stylesheets -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/screens.css">
+        <link rel="stylesheet" href="css/sidebar.css">
+        <link rel="stylesheet" href="css/3dcarousel.css">
+
+
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <img src="./assets/ifit2.png" alt="Hair icon with text Vige and Co." class="imageFull">
+                <input id="menu-toggle" type="checkbox" />
+                <label class='menu-button-container' for="menu-toggle">
+                    <div class='menu-button'></div>
+                </label>
+                <ul class="menu">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">BIODATA</a></li>
+                    <li><a href="#lookbook">LOOKYOU</a></li>
+                    <li><a href="#contact">DEVELOPER</a></li>
+                    <!--with border -->
+                </ul>
+            </nav>
+        </header>
+        <main id="home">
+            <section>
+                <h1>HAPPY BIRTHDAY</h1>
+                <h3 style="font-size: 5rem; color: #7FFFD4; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; ">Fitri Ayu Wulandari</h3>                
+            </section>
+        </main>
+
+        <section id="about" class="aboutUs" style="color: #FF69B4;">
+            <h3>About You</h3>
+            <h1 style="color: #FF69B4;">"Kau Adalah Rumah Untuk Pulang"</h1>
+            <p>Selamat Ulang Tahun, Terus Jadi Dirimu Yang Terbaik</p>
+        </section>
+
+        <section id="services" class="services">
+            <section class="servicesIndividual">
+                <img src="./assets/ikon.png" width="80" alt="beautician">
+                <h3>DATE OF BIRTH</h3>
+                <p style="color: #FFE4E1;">Banjarmasin, 09 Maret 2004</p>
+            </section>
+            <section class="servicesIndividual">
+                <img src="./assets/ikon2.png" width="80" alt="salon chair">
+                <h3>STUDY PROGRAM</h3>
+                <p style="color: #FFE4E1;">Analis Kesehatan, Politeknik Unggulan Kalimantan</p>
+            </section>
+            <section class="servicesIndividual">
+                <img src="./assets/ikon3.png" width="80" alt="beauty products">
+                <h3>HOBBY</h3>
+                <p style="color: #FFE4E1;">Marah - Marah dan Ngambekan, Kurang Ajar Memang</p>
+            </section>
+        </section>
+
+        <section id="lookbook" class="lookbook" style="color: #FF69B4;">
+            <h2>LOOKYOU</h2>
+            <!-- partial:index.partial.html -->
+            <div class="container">
+                <div class="wgh-slider">
+                    <input class="wgh-slider-target" type="radio" id="slide-1" name="slider" />
+                    <input class="wgh-slider-target" type="radio" id="slide-2" name="slider" />
+                    <input class="wgh-slider-target" type="radio" id="slide-3" name="slider" checked="checked" />
+                    <input class="wgh-slider-target" type="radio" id="slide-4" name="slider" />
+                    <input class="wgh-slider-target" type="radio" id="slide-5" name="slider" />
+                    <div class="wgh-slider__viewport">
+                        <div class="wgh-slider__viewbox">
+                            <div class="wgh-slider__container">
+                                <div class="wgh-slider-item">
+                                    <div class="wgh-slider-item__inner">
+                                        <figure class="wgh-slider-item-figure"><img
+                                                class="wgh-slider-item-figure__image" src="assets/MyLove.png"
+                                                alt="The 5th Exotic" />
+                                            <figcaption class="wgh-slider-item-figure__caption"><a href="#">Si Lucu</a><span>Fitri</span></figcaption>
+                                        </figure>
+                                        <label class="wgh-slider-item__trigger" for="slide-1"
+                                            title="Show product 1"></label>
+                                    </div>
+                                </div>
+                                <div class="wgh-slider-item">
+                                    <div class="wgh-slider-item__inner">
+                                        <figure class="wgh-slider-item-figure"><img
+                                                class="wgh-slider-item-figure__image" src="assets/MyLove3.png"
+                                                alt="The 5th Exotic" />
+                                            <figcaption class="wgh-slider-item-figure__caption"><a href="#">Si Imut</a><span>Fitri</span></figcaption>
+                                        </figure>
+                                        <label class="wgh-slider-item__trigger" for="slide-2"
+                                            title="Show product 2"></label>
+                                    </div>
+                                </div>
+                                <div class="wgh-slider-item">
+                                    <div class="wgh-slider-item__inner">
+                                        <figure class="wgh-slider-item-figure"><img
+                                                class="wgh-slider-item-figure__image" src="assets/MyLove5.png"
+                                                alt="The 5th Exotic" />
+                                            <figcaption class="wgh-slider-item-figure__caption"><a href="#">Si Gemoy</a><span>Ayu</span></figcaption>
+                                        </figure>
+                                        <label class="wgh-slider-item__trigger" for="slide-3"
+                                            title="Show product 3"></label>
+                                    </div>
+                                </div>
+                                <div class="wgh-slider-item">
+                                    <div class="wgh-slider-item__inner">
+                                        <figure class="wgh-slider-item-figure"><img
+                                                class="wgh-slider-item-figure__image" src="assets/MyLove4.png"
+                                                alt="The 5th Exotic" />
+                                            <figcaption class="wgh-slider-item-figure__caption"><a href="#">Si Comel</a><span>Wulandari</span></figcaption>
+                                        </figure>
+                                        <label class="wgh-slider-item__trigger" for="slide-4"
+                                            title="Show product 4"></label>
+                                    </div>
+                                </div>
+                                <div class="wgh-slider-item">
+                                    <div class="wgh-slider-item__inner">
+                                        <figure class="wgh-slider-item-figure"><img
+                                                class="wgh-slider-item-figure__image" src="assets/MyLove2.png"
+                                                alt="RYSY - Traveler LP" />
+                                            <figcaption class="wgh-slider-item-figure__caption"><a href="#">Si Manja</a><span>Wulandari</span></figcaption>
+                                        </figure>
+                                        <label class="wgh-slider-item__trigger" for="slide-5"
+                                            title="Show product 5"></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- partial -->
+
+        </section>
+
+        <footer>
+            <section id="contact" class="ourCare">
+                <h3>Coded By © Muhammad Bayu</h3>
+                <!-- <ul class="ourCareUl">
+                    <li><a href="#">Haircuts and Styling</a></li>
+                    <li><a href="#">Haircuts Coloring</a></li>
+                    <li><a href="#">Haircuts Extensions</a></li>
+                    <li><a href="#">Formal Hair Styling</a></li>
+                    <li><a href="#">Children's Cuts</a></li>
+                    <li><a href="#">Bang/Neck Trims</a></li>
+                </ul> -->
+            </section>
+
+            <!-- <section class="businessHours">
+                <h3>BUSINESS HOURS</h3>
+                <p><span>Monday</span> to <span>Saturday</span> by appointment</p>
+                <ul>
+                    <li>
+                        <i class="fab fa-facebook-f"></i>
+                    </li>
+                    <li>
+                        <i class="fab fa-twitter"></i>
+                    </li>
+                    <li>
+                        <i class="fab fa-instagram"></i>
+                    </li>
+                </ul>
+                <p>Icons by <a target="_blank" href="https://icons8.com">Icons8</a></p>
+                <p class="lastAttrib">Photos by <a target="_blank" href="https://canva.com">Canva</a></p>
+            </section>
+
+            <section id="contact" class="contact">
+                <h3>CONTACT</h3>
+                <section>
+                    <h5>Address</h5>
+                    <p>379 Stiedemann Club Apt. 713 Idaho</p>
+                </section>
+                <section>
+                    <h5>Telephone</h5>
+                    <p>627-767-0932</p>
+                </section>
+                <section>
+                    <h5>Email Address</h5>
+                    <p>services@vigeco.com</p>
+                </section>
+            </section> -->
+        </footer>
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+
+</html>
